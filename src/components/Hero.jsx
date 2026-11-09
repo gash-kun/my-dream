@@ -54,11 +54,11 @@ export const Hero = () => {
         {/* Right Column - Avatar Image */}
         <div className="flex-1 flex justify-center">
           <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 p-1 shadow-xl overflow-hidden">
-            <img
-              src="{`${import.meta.env.BASE_URL}profile.jpg`}"
-              alt="Natale Idris Bekit"
-              className="w-full h-full object-cover object-top rounded-full scale-110"
-           />
+            <img 
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
+               alt="Natale Idris Bekit"
+               className="w-full h-full object-cover object-top rounded-full"
+              />
           </div>
         </div>
 
